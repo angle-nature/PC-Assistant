@@ -56,7 +56,7 @@ public class ControlController {
                 String regex = "(?<=\\\\\\\\Users\\\\\\\\|/User/)[^\\\\\\\\/]+(?=\\\\\\\\|/)";
                 Pattern pattern1 = Pattern.compile(regex, Pattern.DOTALL);
                 Matcher matcher1 = pattern1.matcher(pythonScript);
-                pythonScript = matcher1.replaceAll("\"+os.getlogin()+\"");
+                pythonScript = matcher1.replaceAll("'+os.getlogin()+'");
                 pythonScript = pythonScript.replaceAll("桌面", "Desktop");
                 writer.write(pythonScript);
                 writer.close();
