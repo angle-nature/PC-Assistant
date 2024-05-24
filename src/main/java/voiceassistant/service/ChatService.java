@@ -25,6 +25,8 @@ public class ChatService {
     // "https://key.wenwen-ai.com/v1/chat/completions";
     @Value("${api_url}")
     private String api_url;
+    @Value("${model}")
+    private String model;
 
     private final ObjectMapper objectMapper;
     private List<Map<String, String>> conversationHistory;
@@ -63,7 +65,7 @@ public class ChatService {
         String jsonInputString;
         try {
             jsonInputString = objectMapper.writeValueAsString(Map.of(
-                    "model", "gpt-3.5-turbo",
+                    "model", model,
                     "messages", conversationHistory
             ));
         } catch (IOException e) {
