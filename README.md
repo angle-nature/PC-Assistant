@@ -13,4 +13,6 @@
 - 在浏览器中访问localhost:8080即可访问服务器
 ### 运行结果
 ![主界面](https://github.com/angle-nature/PC-Assistant/blob/main/result/%E4%B8%BB%E7%95%8C%E9%9D%A2.jpg?raw=true)
-![]
+![写入文件](https://github.com/angle-nature/PC-Assistant/blob/main/result/%E5%86%99%E5%85%A5%E6%96%87%E4%BB%B6.gif?raw=true)
+![打开哔哩哔哩](https://github.com/angle-nature/PC-Assistant/blob/main/result/%E6%89%93%E5%BC%80%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.gif?raw=true)
+![谷歌搜搜](https://github.com/angle-nature/PC-Assistant/blob/main/result/%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2.gif?raw=true)
