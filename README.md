@@ -12,4 +12,5 @@
 - 配置好文件，安装了相应的包之后，运行PCAssistantApplication即可启动服务器
 - 在浏览器中访问localhost:8080即可访问服务器
 ### 运行结果
-![主界面](https://github.com/angle-nature/PC-Assistant/tree/main/result/主界面.jpg)
+![主界面](https://github.com/angle-nature/PC-Assistant/blob/main/result/%E4%B8%BB%E7%95%8C%E9%9D%A2.jpg?raw=true)
+![]
